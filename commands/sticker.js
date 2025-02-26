@@ -24,7 +24,7 @@ async function stickerCommand(sock, chatId, message) {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363161513685998@newsletter',
+                    newsletterJid: '0029Vb2ZhRF77qVbEkhgqv25@newsletter',
                     newsletterName: 'KnightBot MD',
                     serverMessageId: -1
                 }
@@ -46,7 +46,7 @@ async function stickerCommand(sock, chatId, message) {
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363161513685998@newsletter',
+                        newsletterJid: '0029Vb2ZhRF77qVbEkhgqv25@newsletter',
                         newsletterName: 'KnightBot MD',
                         serverMessageId: -1
                     }
@@ -94,7 +94,7 @@ async function stickerCommand(sock, chatId, message) {
         // Create metadata
         const json = {
             'sticker-pack-id': crypto.randomBytes(32).toString('hex'),
-            'sticker-pack-name': settings.packname || 'KnightBot',
+            'sticker-pack-name': settings.packname || 'By Youssef Al-Thaqafi (01066724157) تعاله خد الباقي',
             'sticker-pack-publisher': settings.author || '@bot',
             'emojis': ['🤖']
         };
@@ -132,7 +132,7 @@ async function stickerCommand(sock, chatId, message) {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363161513685998@newsletter',
+                    newsletterJid: '0029Vb2ZhRF77qVbEkhgqv25@newsletter',
                     newsletterName: 'KnightBot MD',
                     serverMessageId: -1
                 }
